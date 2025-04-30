@@ -5,7 +5,7 @@ import images from '../../assets/images/images'
 const Contact = () => {
   return (
     <div>
-      <div className="demo">
+      <div className="Contact_page">
         <div className="contact_text_container">
         <h1>Let's get in <span style={{textDecoration:"underline purple"}}>touch! </span></h1>
         <p style={{opacity:"40%"}}>Got questions about GoGetWell.AI? Our team is here to help. Contact us for quick and friendly support.</p>
