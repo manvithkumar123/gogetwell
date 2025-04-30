@@ -16,10 +16,13 @@ import people from "./thunder.png"
 import aboutgif from "./about.gif"
 import mission from "./mission.gif"
 import challenge from "./challenge.gif"
-
+import phone from "./email.png"
+import email from "./phone.png"
+import x from "./x.png"
+import linkdein from "./linkdein.png"
 
 const images ={
     logo,mackbook,video,seamless,aipower,comprehensial,enchanced,improved,marketing,medical,realtime,multilingual,frame,
-    thunder,people,aboutgif,mission,challenge
+    thunder,people,aboutgif,mission,challenge,phone,email,x,linkdein
 }
 export default images
