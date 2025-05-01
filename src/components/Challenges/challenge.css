@@ -6,7 +6,7 @@
     align-items: center;
 }
 .challenge_background{
-    height: 500px;
+    height: max-content;
     width: 100vw;
     position: relative;
 }
@@ -24,6 +24,7 @@
 #about_button{
     background-color: white;
     color: black;
+    width: max-content;
 }
 #logos{
     position: relative;
@@ -38,6 +39,7 @@
 @media screen and (max-width:480px) {
     .challengepage{
         flex-direction: column;
+        padding-top: 0;
     }
     #about_button{
         display: none;
@@ -53,6 +55,6 @@
     }
     .challenge_text_background{
         text-align: left;
-        padding-left: 50px;
+        padding-left: 30px;
     }
 }

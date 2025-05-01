@@ -14,9 +14,11 @@ const Challenge = () => {
             <h2 style={{textDecoration:"underline purple"}}>The Challenges We Solve</h2>
             <p style={{marginTop:"20px"}}>Medical tourism, especially in India, is plagued by disorganization and inefficiency. Facilitators often rely on outdated methods, leading to delayed bookings, inadequate patient support, and missed growth opportunities.</p>
             <p>Our platform addresses these pain points by streamlining lead management and improving operational efficiency for facilitators and hospitals alike.</p>
+            <div className="lables2">
             <button id='about_button'><img src={images.thunder} alt="" id='logos'/><span>Efficient Operations
             <p style={{marginTop:"5px"}}>Streamlined booking and management</p></span></button>
             <button id='about_button'><img src={images.people} alt="" id='logos' />Enhanced Support<p style={{marginTop:"5px"}}>Improved patient communication</p></button>
+            </div>
         </div>
 
 

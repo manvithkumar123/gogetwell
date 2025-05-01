@@ -64,3 +64,8 @@ form button{
 .nav-item{
     margin-left: 40px;
 }
+@media screen and (max-width:480px) {
+    form button{
+        display: none;
+    }
+}
